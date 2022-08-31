@@ -8,10 +8,20 @@ body {
     align-items: center;
 }
 
+#controls {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 .row {
     display: flex;
 }
 
 .square {
     border: solid black 1px;
+}
+
+p {
+    margin: 0px 10px;
 }
