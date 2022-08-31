@@ -16,6 +16,10 @@ newGridBtn.onclick = function() {
     let newGridSize = prompt("Choose a grid size between 1 and 100");
     let message = document.createElement("p");
 
+    if (controls.children[1]) {
+        controls.removeChild(controls.children[1]);
+    }
+
     if (newGridSize > 100) {
         message.innerHTML = "Please choose a grid size less than 100."
     }
